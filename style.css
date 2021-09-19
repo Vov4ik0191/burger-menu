@@ -71,3 +71,75 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 /*=======================*/
+
+.wrapper {
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   border-color: blueviolet;
+}
+
+
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-content: center;
+  }
+
+
+.header__body {
+  position: relative;
+  z-index: 2;
+}
+.header__logo {
+  flex: 0 0 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+  .header__logo img {
+    max-width: 100%;
+
+  }
+.header__burger {
+}
+.header__menu {
+}
+.header__list {
+  display: flex;
+}
+  .header__list li{
+    list-style: none;
+    margin: 0 0 0 20px;
+  }
+.header__link {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.content {
+}
+.content__text {
+}
+.footer {
+}
+.footer__text {
+}
