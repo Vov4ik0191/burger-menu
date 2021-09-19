@@ -121,7 +121,7 @@ z-index: 4;
     display: block;
 
   }
-.header__burger {
+.header__burger {           /*Изначально тег с классом бургеор меню скрыт и появляется на медиа-запросе*/
   display: none;
   position: relative;
   z-index: 4;
